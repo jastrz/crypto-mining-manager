@@ -1,0 +1,17 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore MongoDB data directory
+/db/
+
+# Ignore log files
+*.log
+
+# Ignore .env file that contains sensitive information
+.env
+
+# Ignore .DS_Store files created by macOS
+.DS_Store
+
+# Ignore npm debug log files
+npm-debug.log*

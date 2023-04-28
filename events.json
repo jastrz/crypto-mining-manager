@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "name": "AddNews",
+      "startDate": "2016-06-02",
+      "data": {
+	      "title": "New Update Released!",
+	      "text": "The latest version of the game is now available for download."
+      }
+    },
+    {
+      "name": "SetDifficulty",
+      "startDate": "2016-07-09",
+      "data": 4444,
+      "news": {
+        "title": "Halving occured!",
+        "text": "Difficulty in mining has been increased 2x."
+      }
+    },
+    {
+      "name": "SetDifficulty",
+      "startDate": "2020-05-11",
+      "data": 8888,
+      "news": {
+        "title": "Halving occured!",
+        "text": "Difficulty in mining has been increased 2x."
+      }
+    },
+    {
+      "name": "SetElectricityCost",
+      "startDate": "2013-05-02",
+      "data": 2,
+      "news": {
+        "title": "Electricity price increased!",
+        "text": "Electricity per KWh costs 2 dollars now :("
+      }
+    }
+  ]
+}

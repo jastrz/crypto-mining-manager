@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <section class="hero is-fullheight is-flex is-justify-content-center is-align-items-center">
+        <div class="columns is-centered animate__bounceIn">
+            <div class="column has-text-centered">
+                <h1 class="is-size-2 mb-6"> Enter your name</h1>
+                <form action="/miningsimstart" method="POST">
+                    <input class="input is-rounded is-3" type="text" name="username" placeholder="Enter your name">
+                    <button class="button is-rounded is-centered mt-2" type="submit">Play</button>
+                </form>
+                <% if (usernameExists) { %>
+                <h1 class="is-size-4 mt-6 has-text-danger">player name already taken!</h1>
+                <% } %>
+            </div>
+        </div>
+
+  </section>
+</body>
+</html>

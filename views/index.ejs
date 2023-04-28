@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>High wwScores</title>
+  </head>
+  <body>
+    <h1>High Scores</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% highScores.forEach(highScore => { %>
+          <tr>
+            <td><%= highScore.name %></td>
+            <td><%= highScore.score %></td>
+          </tr>
+        <% }); %>
+      </tbody>
+    </table>
+    <form method="POST" action="/highscores">
+      <label for="name">Name:</label>
+      <input type="text" name="name" required>
+      <label for="score">Score:</label>
+      <input type="number" name="score" required>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

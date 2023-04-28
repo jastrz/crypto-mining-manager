@@ -1,0 +1,144 @@
+{ 
+  "mining_devices": [
+    {
+      "name": "RTX 3080",
+      "power": 320,
+      "hashrate": 0.086,
+      "price": 500,
+      "release_date": "09/2020"
+    },
+    {
+      "name": "RTX 2060",
+      "power": 160,
+      "hashrate": 0.032,
+      "price": 250,
+      "release_date": "01/2019"
+    },
+    {
+      "name": "GTX 1660 Ti",
+      "power": 120,
+      "hashrate": 0.030,
+      "price": 280,
+      "release_date": "02/2019"
+    },
+    {
+      "name": "RTX 2070",
+      "power": 185,
+      "hashrate": 0.044,
+      "price": 500,
+      "release_date": "10/2018"
+    },
+    {
+      "name": "GTX 980",
+      "power": 165,
+      "hashrate": 0.021,
+      "price": 550,
+      "release_date": "09/2014"
+    },
+    {
+      "name": "GTX 780",
+      "power": 250,
+      "hashrate": 0.012,
+      "price": 650,
+      "release_date": "01/2013"
+    },
+    {
+      "name": "Avalon ASIC",
+      "hashrate": 0.06,
+      "power": 590,
+      "price": 1299,
+      "release_date": "06/2013"
+    },
+    {
+      "name": "Butterfly Labs Jalapeno",
+      "hashrate": 0.005,
+      "power": 30,
+      "price": 275,
+      "release_date": "08/2013"
+    },
+    {
+      "name": "KnCMiner Saturn",
+      "hashrate": 0.275,
+      "power": 200,
+      "price": 2995,
+      "release_date": "11/2013"
+    },
+    {
+      "name": "Antminer S2",
+      "hashrate": 1,
+      "power": 1100,
+      "price": 2250,
+      "release_date": "05/2014"
+    },
+    {
+      "name": "The Vaultbreaker",
+      "hashrate": 1.4,
+      "power": 1400,
+      "price": 5999,
+      "release_date": "08/2014"
+    },
+    {
+      "name": "Antminer S5",
+      "hashrate": 1.155,
+      "power": 590,
+      "price": 370,
+      "release_date": "12/2014"
+    },
+    {
+      "name": "Antminer S7",
+      "hashrate": 4.73,
+      "power": 1293,
+      "price": 2000,
+      "release_date": "08/2015"
+    },
+    {
+      "name": "Antminer S9",
+      "hashrate": 13.5,
+      "power": 1323,
+      "price": 2100,
+      "release_date": "06/2016"
+    },
+    {
+      "name": "LeMiner 3k",
+      "hashrate": 23.5,
+      "power": 1500,
+      "price": 2000,
+      "release_date": "06/2017"
+    },
+    {
+      "name": "ElkMiner S9",
+      "hashrate": 40.5,
+      "power": 2000,
+      "price": 2100,
+      "release_date": "06/2018"
+    },
+    {
+      "name": "Antminer S17 Pro",
+      "hashrate": 53,
+      "power": 2385,
+      "price": 2232,
+      "release_date": "10/2019"
+    },
+    {
+      "name": "Antminer S19 Pro",
+      "hashrate": 110,
+      "power": 3250,
+      "price": 2499,
+      "release_date": "05/2020"
+    }
+  ],
+
+  "buildings": [
+    {"name": "Apartment", "price": 100000, "capacity": 100},
+    {"name": "House", "price": 300000, "capacity": 1000},
+    {"name": "Office building", "price": 2000000, "capacity": 5000},
+    {"name": "Warehouse", "price": 5000000, "capacity": 15000}
+  ],
+
+  "power_sources": [
+    {"name": "Solar panels", "power": 600, "price": 300, "size": 2},
+    {"name": "Wind turbine", "power": 2000, "price": 5000, "size": 10},
+    {"name": "Hydroelectric dam", "power": 50000, "price": 500000, "size": 100},
+    {"name": "Geothermal power plant", "power": 10000, "price": 1000000, "size": 1000}
+  ]
+}
