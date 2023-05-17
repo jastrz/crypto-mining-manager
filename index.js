@@ -34,17 +34,6 @@ async function getHighScores() {
   }
 }
 
-app.get('/', async (req, res) => {
-  try {
-    const highScores = await getHighScores();
-    console.log(highScores);
-    res.render('index', { highScores });
-  } catch (error) {
-    console.log('Error getting high scores:', error);
-    res.status(500).send('Error getting high scores');
-  }
-});
-
 app.get('/miningsim', async (req, res) => {
   try {
     const scores = await getHighScores();
