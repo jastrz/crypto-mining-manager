@@ -1,7 +1,22 @@
-import { Player } from './player.js';
-import { CryptoMarket, Cryptocurrency, BitcoinPriceTracker } from './market.js';
-import { GameEvent, GameNews, GameEventManager } from './gameEventsManager.js';
-import { GameData } from './gameData.js';
+import {
+    Player
+} from './player.js';
+
+import {
+    CryptoMarket,
+    Cryptocurrency,
+    BitcoinPriceTracker
+} from './market.js';
+
+import {
+    GameEvent,
+    GameNews,
+    GameEventManager
+} from './gameEventsManager.js';
+
+import {
+    GameData
+} from './gameData.js';
 
 import * as Engine from './game.js';
 
