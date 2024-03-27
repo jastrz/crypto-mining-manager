@@ -2,7 +2,7 @@
 
 Simple crypto mining and market trading text web game.
 
-You can check it out here: [link](http://jjastrzebski.com/miningsimstart?username_exists=False)
+You can check it out here: [link](https://kjast.site/miningsimstart)
 
 
 ## How to run
